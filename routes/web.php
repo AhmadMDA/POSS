@@ -68,7 +68,7 @@ Route::get('/articles/{id}', [ArticleController::class,'articles']);
 
 
 
-// Resource Controller
+// Resource Controllerd
 use App\Http\Controllers\PhotoController;
 Route::resource('photos', PhotoController::class);
 Route::resource('photos', PhotoController::class)->only([
