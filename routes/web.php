@@ -8,6 +8,6 @@ use Illuminate\Support\Facades\Route;
     //return 'Hello World';
    //});
 Route::get('/wordld', function () {
-    return 'World';
+    return 'Worldd';
    });
    
