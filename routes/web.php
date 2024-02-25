@@ -3,7 +3,7 @@
 
 use Illuminate\Support\Facades\Route;
 
-Route::get('/home', 'App\Http\Controllers\HomeController@index');
+Route::get('/homee', 'App\Http\Controllers\HomeController@index');
 
 Route::prefix('products')->group(function () {
     Route::get('/', 'ProductController@index');
