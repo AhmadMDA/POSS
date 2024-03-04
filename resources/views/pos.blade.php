@@ -17,11 +17,11 @@
         @csrf
         <label for="product">Produk:</label>
         <select name="product" id="product">
-            <!-- Tampilkan pilihan produk yang tersedia -->
+            
             <option value="nasi-goreng">Nasi Goreng</option>
             <option value="mie-goreng">Mie Goreng</option>
             <option value="ayam-goreng">Ayam Goreng</option>
-            <!-- tambahkan lebih banyak pilihan produk di sini -->
+           
         </select>
         <br>
         <label for="quantity">Jumlah:</label>
@@ -34,14 +34,14 @@
     <h2>Keranjang Belanja</h2>
     <ul>
         <!-- Tampilkan daftar item yang sudah ditambahkan ke keranjang -->
-        <!-- Misalnya: -->
+
         <li>Nasi Goreng (x2)</li>
         <li>Mie Goreng (x1)</li>
     </ul>
 
-    <!-- Tambahkan elemen lainnya seperti tombol untuk menyelesaikan transaksi -->
+    
 
-    <!-- Tambahkan JavaScript atau script lainnya jika diperlukan -->
+    <!--  -->
 
 </body>
 </html>

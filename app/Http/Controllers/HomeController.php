@@ -9,6 +9,6 @@ class HomeController extends Controller
     public function index()
     {
         // Menampilkan halaman home
-        return view('home');
+        return view('Selamat datang di toko barokah');
     }
 }
