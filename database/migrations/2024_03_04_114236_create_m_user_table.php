@@ -11,7 +11,7 @@ return new class extends Migration
      */
     public function up(): void
 {
-    if (!Schema::hasTable('m_user')) {
+
         Schema::create('m_user', function (Blueprint $table) {
             $table->id('id_user');
             $table->unsignedBigInteger('level_id')->index();
@@ -23,7 +23,7 @@ return new class extends Migration
             $table->foreign('level_id')->references('lvl_id')->on('m_level');
 
         });
-    }
+    
 }
     /**
      * Reverse the migrations.
